@@ -19,7 +19,7 @@ In my settings I am using AWS as the broker, so the following is necessary for g
 - Under IoT MQTT create a new broker
     - Name "AWS"
     - Address is your IoT end point
-    - port 883
+    - port 8883
     - ssl checked
     - ClientID is the client ID created in the Publish "Connect."
     - Certificate select the imported certificate
